@@ -6,13 +6,13 @@ function init() {
 
   if (key === code[pressed]) {
     pressed++;
- 
+
     if (pressed === code.length) {
       alert("Holeee!");
       index = 0;
     }
   } else {
-   
+
     index = 0;
   }
 });
